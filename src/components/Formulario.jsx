@@ -99,6 +99,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
                         className="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
                         value={nombre}
                         onChange={ (e) => setNombre(e.target.value) }
+                       autocomplete="off"
                     />  
                 </div>
 
@@ -113,6 +114,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
                         className="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
                         value={propietario}
                         onChange={ (e) => setPropietario(e.target.value) }
+                        autocomplete="off"
                     />  
                 </div>
 
@@ -127,6 +129,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
                         className="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
                         value={email}
                         onChange={ (e) => setEmail(e.target.value) }
+                        autocomplete="off"
                     />  
                 </div>
 
@@ -140,6 +143,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
                         className="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
                         value={fecha}
                         onChange={ (e) => setFecha(e.target.value) }
+                        autocomplete="off"
                     />  
                 </div>
 
